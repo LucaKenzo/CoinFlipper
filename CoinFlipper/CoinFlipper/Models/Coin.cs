@@ -20,7 +20,7 @@ namespace CoinFlipper.Models
         //Método Jogar a moeda. Retorna o Lado sorteado como uma string
         public string Jogar()
         {
-            LadoSorteado = new Random().Next(2) == 0 ? "Cara" : "Coroa";
+            LadoSorteado = new Random().Next(2) == 0 ? "cara" : "coroa";
             return (LadoSorteado);
         }
     }

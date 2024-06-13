@@ -6,6 +6,8 @@
     <VerticalStackLayout>
         <Image
         Source="{Binding Imagem}"/>
+        <Label
+            Text="{Binding Resultado}"/>
         <Picker
         Title="Selecione um lado da moeda"
             SelectedItem="{Binding Escolha}">
